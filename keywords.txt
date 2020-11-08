@@ -1,0 +1,60 @@
+#######################################
+# Syntax Coloring Map BitkitRobit
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BitkitRobit	KEYWORD1
+ManipulatorLed	KEYWORD1
+ManipulatorButton	KEYWORD1
+ManipulatorPositionNumber	KEYWORD1
+ManipulatorPositionValues	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+digitalWrite	KEYWORD2
+digitalRead	KEYWORD2
+setStep	KEYWORD2
+getStep	KEYWORD2
+setPosition	KEYWORD2
+getPosition	KEYWORD2
+savePosition	KEYWORD2
+loadPosition	KEYWORD2
+clearPositions	KEYWORD2
+setRange	KEYWORD2
+getRange	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LED1	LITERAL1
+LED2	LITERAL1
+
+SW1	LITERAL1
+SW2	LITERAL1
+SW3	LITERAL1
+SW4	LITERAL1
+
+POSITION1	LITERAL1
+POSITION2	LITERAL1
+POSITION3	LITERAL1
+POSITION4	LITERAL1
+POSITION5	LITERAL1
+POSITION6	LITERAL1
+POSITION7	LITERAL1
+POSITION8	LITERAL1
+POSITION9	LITERAL1
+POSITION10	LITERAL1
+
+BEGIN_VAL1  LITERAL1
+BEGIN_VAL2  LITERAL1
+BEGIN_VAL3  LITERAL1
+BEGIN_VAL4  LITERAL1
+
