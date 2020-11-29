@@ -40,13 +40,13 @@ void Encoder::update() {
     }
     if (_moveEncoder) {
         if (statePinA && !statePinB) {
-            if (_position > _minValue) {
+            if (_position > _minValue + _step) {
                 _position -= _step;
                 _moveEncoder = false;
             }
         }
         if (!statePinA && statePinB) {
-            if (_position < _maxValue) {
+            if (_position < _maxValue - _step) {
                 _position += _step;
                 _moveEncoder = false;
             }
